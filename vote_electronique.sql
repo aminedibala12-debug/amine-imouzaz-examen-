@@ -20,6 +20,6 @@ CREATE TABLE votes (
 
 -- 3) Insertion de trois (3) candidats de test
 INSERT INTO candidats (nom, photo, programme) VALUES
-('Ahmed Alami', 'https://via.placeholder.com/150/007bff/ffffff?text=Ahmed', 'Amélioration du Wi-Fi et des espaces de travail.'),
-('Sara Benali', 'https://via.placeholder.com/150/28a745/ffffff?text=Sara', 'Organisation de tournois e-sport et sorties culturelles.'),
-('Youssef Tazi', 'https://via.placeholder.com/150/dc3545/ffffff?text=Youssef', 'Création d\'un club de robotique et tutorat entre étudiants.');
+('Ahmed Alami', 'https://i.pinimg.com/originals/2c/bb/0e/2cbb0ee6c1c55b1041642128c902dadd.jpg', 'Amélioration du Wi-Fi et des espaces de travail.'),
+('Sara Benali', 'https://static-www.adweek.com/wp-content/themes/adweek-next/src/images/default-bio-photo.svg', 'Organisation de tournois e-sport et sorties culturelles.'),
+('Youssef Tazi', 'https://i.pinimg.com/originals/84/a6/f4/84a6f4a2646754516fc426996b7b9abe.png', 'Création un club de robotique et tutorat entre étudiants.');

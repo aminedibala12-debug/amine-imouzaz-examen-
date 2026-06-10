@@ -10,12 +10,12 @@ $candidats = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Élection du Délégué - Accueil</title>
+    <title>Sélection du Délégué - Accueil</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1>Élection du Délégué de Promotion</h1>
+        <h1>Sélection du Délégué de Promotion</h1>
 
         <?php
         if (isset($_GET['msg'])) {
@@ -62,7 +62,7 @@ $candidats = $stmt->fetchAll(PDO::FETCH_ASSOC);
         </div>
 
         <div class="links">
-            <a href="resultats.php" class="btn btn-secondary">Voir les résultats du scrutin</a>
+            <a href="resultats.php" class="btn btn-secondary">Voir les résultats du vote</a>
         </div>
     </div>
 </body>
